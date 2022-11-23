@@ -11,6 +11,9 @@ public enum Pokeball implements Destructible {
     private String name;
     private double successRate;
 
+    Pokeball() {
+    }
+
     Pokeball(String name, double successRate) {
         this.name = name;
         this.successRate = successRate;

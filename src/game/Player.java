@@ -6,6 +6,9 @@ public class Player implements Destructible {
     private String name;
     private int money;
 
+    public Player() {
+    }
+
     public Player(String name, int money) {
         this.name = name;
         this.money = money;

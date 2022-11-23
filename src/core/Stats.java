@@ -9,6 +9,9 @@ public class Stats implements Destructible {
     private double baseHealthPoints;
     private double currentHealthPoints;
 
+    public Stats() {
+    }
+
     public Stats(int level, int attack, int defense, double baseHealthPoints) {
         this.level = level;
         this.attack = attack;

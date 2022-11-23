@@ -7,6 +7,9 @@ public class Item implements Destructible {
     private Pokeball pokeball;
     private int amount;
 
+    public Item() {
+    }
+
     public Item(Pokeball pokeball, int amount) {
         this.pokeball = pokeball;
         this.amount = amount;

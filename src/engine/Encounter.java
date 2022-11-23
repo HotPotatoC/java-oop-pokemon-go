@@ -8,6 +8,9 @@ import utils.Destructible;
 public class Encounter implements Destructible {
     private Pokemon ally, opponent;
 
+    public Encounter() {
+    }
+
     public Encounter(Pokemon ally, Pokemon opponent) {
         this.ally = ally;
         this.opponent = opponent;

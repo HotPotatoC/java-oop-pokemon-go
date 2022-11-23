@@ -58,6 +58,9 @@ public enum Pokemon implements Destructible {
         private Stats stats;
         private Type[] types;
 
+        Pokemon() {
+        }
+
         Pokemon(String name, String pokedexNumber, Stats stats, Type[] types) {
                 this.name = name;
                 this.pokedexNumber = pokedexNumber;
